@@ -25,7 +25,7 @@
 	<string id="31016">SETTINGS</string>
 	<string id="31017">WEATHER</string>
 	<string id="31018">PLAY DISC</string>
-	<string id="31019">SHUTDOWN</string>
+	<string id="31019">QUIT</string>
 	<string id="31020">SCRIPTS</string>
 	<string id="31021">ASSISTANT</string>
 
@@ -160,9 +160,9 @@
 	<string id="31203">HOME VISUALISER: OFF</string>
 	<string id="31204">HOME VISUALISER: ON</string> 
 	<string id="31205">NOW PLAYING</string>
-	<string id="31206">SHUTDOWN TIMER</string> 
+	<string id="31206">SLEEP TIMER</string> 
 	<string id="31207">RESTART</string> 
-	<string id="31208">SHUTDOWN</string>
+	<string id="31208">QUIT</string>
 	<string id="31209">SIGN OUT</string>
 	<string id="31210">EJECT</string>
 

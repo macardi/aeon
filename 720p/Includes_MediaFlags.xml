@@ -318,7 +318,7 @@
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/columbia.png</texture>
-					<visible>substring(listitem.studio,Columbia)</visible>
+					<visible>substring(listitem.studio,Columbia) + !substring(listitem.studio,TriStar)</visible>
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
@@ -344,6 +344,36 @@
 					<include>Furniture_ShowcaseMediaFlagsVars</include>
 					<texture>flags/miramax.png</texture>
 					<visible>substring(listitem.studio,Miramax) + !substring(listitem.studio,Universal)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/bandai.png</texture>
+					<visible>substring(listitem.studio,Bandai)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/usafilms.png</texture>
+					<visible>substring(listitem.studio,USA Films)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/sandrew.png</texture>
+					<visible>substring(listitem.studio,Sandrew)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/weinstein.png</texture>
+					<visible>substring(listitem.studio,Weinstein)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/buenavista.png</texture>
+					<visible>substring(listitem.studio,Buena Vista)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/focus.png</texture>
+					<visible>substring(listitem.studio,Focus)</visible>
 				</control>
 			</control>
 			<control type="group">
@@ -562,7 +592,7 @@
 				<control type="image" id="81">
 					<include>Furniture_PanelMediaFlagsVars</include>
 					<texture>flags/columbia.png</texture>
-					<visible>substring(listitem.studio,Columbia)</visible>
+					<visible>substring(listitem.studio,Columbia) + !substring(listitem.studio,TriStar)</visible>
 				</control>
 				<control type="image" id="81">
 					<include>Furniture_PanelMediaFlagsVars</include>
@@ -588,6 +618,36 @@
 					<include>Furniture_PanelMediaFlagsVars</include>
 					<texture>flags/miramax.png</texture>
 					<visible>substring(listitem.studio,Miramax) + !substring(listitem.studio,Universal)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/bandai.png</texture>
+					<visible>substring(listitem.studio,Bandai)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/usafilms.png</texture>
+					<visible>substring(listitem.studio,USA Films)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/sandrew.png</texture>
+					<visible>substring(listitem.studio,Sandrew)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/weinstein.png</texture>
+					<visible>substring(listitem.studio,Weinstein)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/buenavista.png</texture>
+					<visible>substring(listitem.studio,Buena Vista)</visible>
+				</control>
+				<control type="image" id="81">
+					<include>Furniture_ShowcaseMediaFlagsVars</include>
+					<texture>flags/focus.png</texture>
+					<visible>substring(listitem.studio,Focus)</visible>
 				</control>
 			</control>
 			<control type="group">
